@@ -1,0 +1,32 @@
+html {background-image: url('../img/sa.jpeg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+
+body {font-family: 'Dosis', sans-serif;}
+
+.playagain {border: 2px #003399 solid;
+		border-radius: 5px;
+	background-color: #fff; width: 80px; height: 20px; text-align: center; vertical-align: middle; margin-top: 5px; margin-left: 10px; font-weight: 500;}
+
+.header {text-align: center; color: #003399;}
+.header h1 {font-size: 3em; font-weight: bolder;}
+.header h3 {font-size: 1.5em; margin-top: -10px; margin-bottom: 40px;}
+
+.main {background-color: #fff; 
+		width: 500px; margin-left: auto; margin-right: auto;
+		font-size: 1.2em;
+		border: 5px #003399 solid;
+		border-radius: 5px;
+		padding: 10px;
+		font-weight: 500;}
+
+.questnum {font-weight: 700; padding-bottom: 5px;} 
+
+.answers {list-style-type: none;}
+
+
+.score {background-color: #fff;  width: 150px; height: 90px; float: right; margin-right: 100px; margin-top: 10px; padding: 5px; text-align: center;
+font-weight: 600; margin-bottom: 10px;}
+.count {font-size: 4em; font-weight: 700;}
