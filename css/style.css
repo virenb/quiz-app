@@ -1,4 +1,9 @@
-html {background-image: url('../img/sa.jpeg');
+/* * {font-family: 'American Typewriter';}
+h1 {font-weight: 400;}
+ol ul {padding: 0 0 0 10px;}
+ol ul li {list-style: none;} */
+
+ html {background-image: url('../img/sa.jpeg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -17,13 +22,12 @@ a {text-decoration: none; color: black;}
 
 .main {background-color: #fff; width: 500px; margin-left: auto; margin-right: auto; font-size: 1.2em;border: 5px #003399 solid;
 		border-radius: 5px; padding: 10px; font-weight: 500;}
+ol ul {padding: 0 0 0 10px;}
+ol ul li {list-style: none;}
+ol > li {list-style: none;}
 
-.questnum {font-weight: 700; padding-bottom: 5px;} 
 
-.answers {list-style-type: none;}
-
-
-.score {background-color: #fff;  width: 150px; height: 90px; float: right; margin-right: 100px; margin-top: 10px; padding: 5px; 
+.score{background-color: #fff;  width: 190px; height: 90px; float: right; margin-right: auto; margin-left: auto; margin-top: 70px; padding: 5px; 
 		text-align: center; font-weight: 600; margin-bottom: 10px; border: 2px #003399 solid; border-radius: 5px;}
 		
-.count {font-size: 4em; font-weight: 700;}
+.hi, #current, #total {font-size: 4em; font-weight: 700;}
